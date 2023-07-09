@@ -1,0 +1,65 @@
+.characterContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .characterContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 950px)  {
+  .characterContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 950px) {
+  .characterContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.characterCard {
+  border: 1px solid rgb(220 228 241/1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.detailsSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider {
+  height: 3px;
+  background-color: #00238c;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.characterTitle {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.value {
+  font-weight: 300;
+  font-size: 1rem;
+}

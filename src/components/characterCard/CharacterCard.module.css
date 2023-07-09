@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.characterCard {
+  border: 1px solid rgb(220 228 241/1);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.divider {
+  height: 3px;
+  background-color: #00238c;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.characterTitle {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom: 2px solid #00238c;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.value {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.subLabel {
+  font-weight: 500;
+}
+
+.errorMessage {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.section {
+  border-bottom: 2px dotted #00238c;
+}
